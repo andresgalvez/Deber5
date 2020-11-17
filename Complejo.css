@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2020, 11:08:47 AM
+    Author     : AndresGalvez
+*/
+
+.root {
+    -fx-background-color:linear-gradient(from 25% 25% to 100% 100%, #Fc143c, #E2cd32);
+    -fx-font-family: "serif";
+    -fx-font-size: 12pt;
+}
+
+.button {
+    -fx-background-color:linear-gradient(from 15% 35% to 100% 100%, #30af3c, #3e14F0);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 2.0, 3.0);
+}
+
+.subtitulo {
+    -fx-font-weight:bold;
+    -fx-font-size:18px;
+    -fx-text-fill: maroon ;
+}
+
+.text-field:focused {
+    -fx-border-color: violet;
+    -fx-effect: innershadow(gaussian, mediumpurple, 10, 0.5, 2.0, 3.0);
+}
+
+.check-box {
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+}
+
+.radio-button {
+    -fx-font-style: italic;
+    -fx-text-fill: black;
+}
+
+.check-box:hover {
+    -fx-border-color: cyan;
+    -fx-border-width: 4px;
+}
+
+#tituloPrincipal {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, yellow, 15, 0.7, 2.0, 0);
+}
+
+#botCedula {
+    -fx-background-color: linen;
+    -fx-background-image: url(images/PC-No-Se-Apaga-565ff7e13df78cedb09eea54.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-effect: none;
+    -fx-text-fill: transparent;
+}
+#botCedula:hover {
+    -fx-border-color:grey;
+    -fx-border-width:1px;
+}
+
+#shiny-orange {
+    -fx-background-image: url(images/PC-No-Se-Apaga-565ff7e13df78cedb09eea54.png);
+    -fx-background-size: 64px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 60;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: transparent;
+    -fx-font-weight: bold;
+    -fx-font-size: 60px;
+    -fx-padding: 10 10 10 10;
+}
+
+#shiny-orange:hover {
+    -fx-background-color: #e68400;
+}
+
+.vertical{
+    -fx-rotate: -90;
+}

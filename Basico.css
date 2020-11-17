@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 13, 2020, 11:06:55 AM
+    Author     : AndresGalvez
+*/
+
+.root {
+    -fx-background-color:azure;
+}
+
+#botCedula {
+    -fx-background-color:  greenyellow;
+    
+    -fx-background-image: url(images/PC-No-Se-Apaga-565ff7e13df78cedb09eea54.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-text-fill: transparent;
+}
+
+#tituloPrincipal {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 22px;
+    -fx-text-fill: firebrick;
+    -fx-font-weight: bold;
+
+}
+
+.subtitulo {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-style: italic; 
+}
+
+.radio-button {
+    -fx-font-family: "Georgia";
+}
+
+.check-box {
+    -fx-font-size: 0.25cm;
+}
+
+.button:hover {
+    -fx-background-color: navy;
+}
